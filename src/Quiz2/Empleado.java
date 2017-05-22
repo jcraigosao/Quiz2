@@ -1,5 +1,5 @@
 
-package parcial;
+package Quiz2;
 
 import java.util.Date;
 

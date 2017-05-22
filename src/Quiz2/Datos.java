@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial;
+package Quiz2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ public class Datos {
     Scanner sn = new Scanner(System.in);
 
     public Datos() {
-        this.datos = new File("src/datos.txt");
+        this.datos = new File("datos.txt");
     }
 
     public ArrayList<String> LeerArchivo() {

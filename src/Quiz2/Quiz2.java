@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial;
+package Quiz2;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -16,7 +16,7 @@ import java.util.Locale;
  *
  * @author Cristian Sarmiento
  */
-public class Parcial {
+public class Quiz2 {
 
     /**
      * @param args the command line arguments
@@ -65,8 +65,8 @@ public class Parcial {
         }
         nacional = new Universidad(estudiantes, facultades, staff);
         
-        System.out.println(nacional.CalcularSalarioGerentes());
-        System.out.println(nacional.CalcularSalario());
+        System.out.println("El salario de los gerentes es: "+nacional.CalcularSalarioGerentes());
+        System.out.println("El salario total de los empleados es: "+nacional.CalcularSalario());
         nacional.listarInfo();
     }
 

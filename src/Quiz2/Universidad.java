@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial;
+package Quiz2;
 
 import java.util.ArrayList;
 
@@ -95,13 +95,13 @@ public class Universidad implements Salario {
     
     public void listarInfo(){
     for(Estudiante e:estudiantes){
-        System.out.println(e.nombre + " " + e.apellido + " " + e.Salario);
+        System.out.println("Estudiante: " +e.nombre + " " + e.apellido + ", Salario: " + e.Salario);
     }
     for(Facultad f: facultades){
-        System.out.println(f.nombre + " " + f.apellido + " " + f.Salario + " " + f.rango + " " + f.oficina + " " + f.fecha);
+        System.out.println("Miembro de la facultad: "+f.nombre + " " + f.apellido + ", Salario:  " + f.Salario + ", Rango: " + f.rango + ", Oficina: " + f.oficina + ", Fecha de contrato: " + f.fecha);
     }
     for(Staff s: staff){
-        System.out.println(s.nombre + " " + s.apellido + " " + s.Salario + " " + s.titulo + " " + s.oficina + " " + s.fecha);
+        System.out.println("Staff: "+s.nombre + " " + s.apellido + ", Salario:  " + s.Salario + ", Titulo: " + s.titulo + ", Oficina: " + s.oficina + ", Fecha de contrato: " + s.fecha);
     }
     }
 

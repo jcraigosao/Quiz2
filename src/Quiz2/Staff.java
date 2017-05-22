@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package parcial;
+package Quiz2;
 
 import java.util.Date;
 
@@ -11,12 +11,19 @@ import java.util.Date;
  *
  * @author Cristian Sarmiento
  */
-public class Facultad extends Empleado{
-protected String rango;
+public class Staff extends Empleado{
+protected String titulo;
 
-    public Facultad(String rango, int oficina, Date fecha, String nombre, String apellido, double Salario) {
+    public Staff(String titulo, int oficina, Date fecha, String nombre, String apellido, double Salario) {
         super(oficina, fecha, nombre, apellido, Salario);
-        this.rango = rango;
+        this.titulo = titulo;
     }
+    
+    
+//    @Override
+//    public double CalcularSalario(){
+//    
+//   }
 
+    
 }
