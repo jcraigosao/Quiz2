@@ -19,4 +19,13 @@ protected String rango;
         this.rango = rango;
     }
 
+    public String getRango() {
+        return rango;
+    }
+
+    public void setRango(String rango) {
+        this.rango = rango;
+    }
+    
+
 }

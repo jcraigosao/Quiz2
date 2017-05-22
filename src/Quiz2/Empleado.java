@@ -14,6 +14,23 @@ protected Date fecha;
         this.fecha = fecha;
     }
 
+    public int getOficina() {
+        return oficina;
+    }
+
+    public void setOficina(int oficina) {
+        this.oficina = oficina;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+    
+
     @Override
     public double CalcularSalario() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
